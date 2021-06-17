@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "5LYRfLhij1K8wIozIz5yx7A1SjYaD/Tkktvn9GpMZkzX65ewoyF6SZNHtDxaZ8a0/jFHpXba/FibCw0ibBN9ew==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Nikola\\source\\repos\\LabProject\\AspProject.Application\\AspProject.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Nikola\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.7\\microsoft.aspnetcore.http.features.5.0.7.nupkg.sha512",
+    "C:\\Users\\Nikola\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\Nikola\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Nikola\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512",
+    "C:\\Users\\Nikola\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

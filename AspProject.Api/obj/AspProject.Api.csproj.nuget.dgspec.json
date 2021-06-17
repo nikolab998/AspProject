@@ -1,0 +1,361 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Nikola\\source\\repos\\LabProject\\AspProject.Api\\AspProject.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Nikola\\source\\repos\\LabProject\\AspProject.Api\\AspProject.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nikola\\source\\repos\\LabProject\\AspProject.Api\\AspProject.Api.csproj",
+        "projectName": "AspProject.Api",
+        "projectPath": "C:\\Users\\Nikola\\source\\repos\\LabProject\\AspProject.Api\\AspProject.Api.csproj",
+        "packagesPath": "C:\\Users\\Nikola\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nikola\\source\\repos\\LabProject\\AspProject.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Nikola\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Nikola\\source\\repos\\LabProject\\AspProject.Application\\AspProject.Application.csproj": {
+                "projectPath": "C:\\Users\\Nikola\\source\\repos\\LabProject\\AspProject.Application\\AspProject.Application.csproj"
+              },
+              "C:\\Users\\Nikola\\source\\repos\\LabProject\\AspProject.DataAccess\\AspProject.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Nikola\\source\\repos\\LabProject\\AspProject.DataAccess\\AspProject.DataAccess.csproj"
+              },
+              "C:\\Users\\Nikola\\source\\repos\\LabProject\\AspProject.Domain\\AspProject.Domain.csproj": {
+                "projectPath": "C:\\Users\\Nikola\\source\\repos\\LabProject\\AspProject.Domain\\AspProject.Domain.csproj"
+              },
+              "C:\\Users\\Nikola\\source\\repos\\LabProject\\AspProject.Implementation\\AspProject.Implementation.csproj": {
+                "projectPath": "C:\\Users\\Nikola\\source\\repos\\LabProject\\AspProject.Implementation\\AspProject.Implementation.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.16, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Nikola\\source\\repos\\LabProject\\AspProject.Application\\AspProject.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nikola\\source\\repos\\LabProject\\AspProject.Application\\AspProject.Application.csproj",
+        "projectName": "AspProject.Application",
+        "projectPath": "C:\\Users\\Nikola\\source\\repos\\LabProject\\AspProject.Application\\AspProject.Application.csproj",
+        "packagesPath": "C:\\Users\\Nikola\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nikola\\source\\repos\\LabProject\\AspProject.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Nikola\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Nikola\\source\\repos\\LabProject\\AspProject.Domain\\AspProject.Domain.csproj": {
+                "projectPath": "C:\\Users\\Nikola\\source\\repos\\LabProject\\AspProject.Domain\\AspProject.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Nikola\\source\\repos\\LabProject\\AspProject.DataAccess\\AspProject.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nikola\\source\\repos\\LabProject\\AspProject.DataAccess\\AspProject.DataAccess.csproj",
+        "projectName": "AspProject.DataAccess",
+        "projectPath": "C:\\Users\\Nikola\\source\\repos\\LabProject\\AspProject.DataAccess\\AspProject.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Nikola\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nikola\\source\\repos\\LabProject\\AspProject.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Nikola\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Nikola\\source\\repos\\LabProject\\AspProject.Domain\\AspProject.Domain.csproj": {
+                "projectPath": "C:\\Users\\Nikola\\source\\repos\\LabProject\\AspProject.Domain\\AspProject.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Nikola\\source\\repos\\LabProject\\AspProject.Domain\\AspProject.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nikola\\source\\repos\\LabProject\\AspProject.Domain\\AspProject.Domain.csproj",
+        "projectName": "AspProject.Domain",
+        "projectPath": "C:\\Users\\Nikola\\source\\repos\\LabProject\\AspProject.Domain\\AspProject.Domain.csproj",
+        "packagesPath": "C:\\Users\\Nikola\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nikola\\source\\repos\\LabProject\\AspProject.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Nikola\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Nikola\\source\\repos\\LabProject\\AspProject.Implementation\\AspProject.Implementation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nikola\\source\\repos\\LabProject\\AspProject.Implementation\\AspProject.Implementation.csproj",
+        "projectName": "AspProject.Implementation",
+        "projectPath": "C:\\Users\\Nikola\\source\\repos\\LabProject\\AspProject.Implementation\\AspProject.Implementation.csproj",
+        "packagesPath": "C:\\Users\\Nikola\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nikola\\source\\repos\\LabProject\\AspProject.Implementation\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Nikola\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Nikola\\source\\repos\\LabProject\\AspProject.Application\\AspProject.Application.csproj": {
+                "projectPath": "C:\\Users\\Nikola\\source\\repos\\LabProject\\AspProject.Application\\AspProject.Application.csproj"
+              },
+              "C:\\Users\\Nikola\\source\\repos\\LabProject\\AspProject.DataAccess\\AspProject.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Nikola\\source\\repos\\LabProject\\AspProject.DataAccess\\AspProject.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "EasyEncryption": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

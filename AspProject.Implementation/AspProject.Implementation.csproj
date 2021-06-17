@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EasyEncryption" Version="1.0.2" />
+    <PackageReference Include="FluentValidation" Version="10.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AspProject.Application\AspProject.Application.csproj" />
+    <ProjectReference Include="..\AspProject.DataAccess\AspProject.DataAccess.csproj" />
+  </ItemGroup>
+
+</Project>
